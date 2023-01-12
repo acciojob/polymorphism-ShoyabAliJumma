@@ -5,7 +5,9 @@ public class Main {
         Product p=new Product();
         System.out.println(p.product(1,2));
         System.out.println(p.product(1,2,3));
-        System.out.println(p.product(1,2));
+       // System.out.println(p.product(1,2));
+        double ans=p.product(100.0,2);
+        System.out.println(ans);
 
     }
 
